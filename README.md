@@ -19,19 +19,6 @@ A mobile-first waste bank administration prototype built as a local web app.
    - `python3 -m http.server 8000`
    - Open `http://localhost:8000`
 
-## Build APK (Android App)
-
-See `APK_BUILD_GUIDE.md` for detailed instructions on creating an Android APK file.
-
-### Quick APK Build (Using PWABuilder - No Installation Required)
-1. Go to https://www.pwabuilder.com/
-2. Enter your local URL: `http://localhost:8000` (run local server first)
-3. Click "Start" and wait for analysis
-4. Click "Build" under Android
-5. Download the APK file
-
-The app is now PWA-ready with manifest.json for better mobile experience.
-
 ## Notes
 - Data is stored in browser `localStorage`.
 - Settings include reset to clear data and start fresh.
