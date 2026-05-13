@@ -1,16 +1,6 @@
 # Bank Sampah Prototype - APK Build Guide
 
-## Option 1: Using PWABuilder (Recommended - No Installation Required)
-
-PWABuilder is a free online tool that can convert your web app to APK:
-
-1. **Go to**: https://www.pwabuilder.com/
-2. **Enter your web app URL**: If running locally, use `http://localhost:8000` or deploy to GitHub Pages first
-3. **Click "Start"** and wait for analysis
-4. **Click "Build"** under Android
-5. **Download the APK** file
-
-## Option 2: Using Capacitor (Requires Node.js)
+## Option 1: Using Capacitor (Requires Node.js)
 
 If you want to build locally:
 
@@ -54,7 +44,7 @@ cd android
 # - Your APK file will be named `app-debug.apk` (or `app-release.apk` if you built release mode)
 ```
 
-## Option 3: Using Apache Cordova
+## Option 2: Using Apache Cordova
 
 ### Prerequisites
 - Install Node.js
@@ -80,7 +70,7 @@ cordova build android
 # 5. Find APK in platforms/android/app/build/outputs/apk/debug/
 ```
 
-## Option 4: Using Online APK Builders
+## Option 3: Using Online APK Builders
 
 Several free online services can convert your web app to APK:
 
